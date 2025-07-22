@@ -1,0 +1,67 @@
+{
+    "version_rule": "2025.07.1",
+    "start_date": "2024-01-01",
+  "events": [
+    {
+      "event_type": "SectionCompleted",
+      "points": 50,
+      "limit_in_day": 5,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ExerciseSave",
+      "points": 100,
+      "limit_in_day": 5,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ClubText",
+      "points": 200,
+      "limit_in_day": 1,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ClubLike",
+      "points": 10,
+      "limit_in_day": 5,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ClubLikeReceived",
+      "points": 20,
+      "limit_in_day": 10,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ClubCommentReceived",
+      "points": 50,
+      "limit_in_day": 5,
+      "type": "systematically"
+    },
+    {
+      "event_type": "ClubCommentWritten",
+      "points": 50,
+      "limit_in_day": 5,
+      "type": "systematically"
+    }
+  ],
+  "systematicity": [
+    {"week": 1, "coefficient": 1.0},
+    {"week": 2, "coefficient": 1.02},
+    {"week": 3, "coefficient": 1.04},
+    {"week": 4, "coefficient": 1.09},
+    {"week": "5+", "coefficient": 1.2}
+  ],
+  "qualifications": [
+    {"qualification": "Первокурсник", "base_rank": 50, "qualification_coefficient": 1.0, "level": "L1", "is_paid": false},
+    {"qualification": "Начинающий", "base_rank": 100, "qualification_coefficient": 1.2, "level": "L2", "is_paid": true},
+    {"qualification": "Стажёр", "base_rank": 100, "qualification_coefficient": 1.4, "level": "L3", "is_paid": true},
+    {"qualification": "Специалист", "base_rank": 100, "qualification_coefficient": 1.7, "level": "", "is_paid": true},
+    {"qualification": "Практик", "base_rank": 100, "qualification_coefficient": 2.1, "level": "", "is_paid": true},
+    {"qualification": "Мастер", "base_rank": 100, "qualification_coefficient": 2.5, "level": "L6", "is_paid": true},
+    {"qualification": "Реформатор", "base_rank": 100, "qualification_coefficient": 3.0, "level": "L7", "is_paid": true},
+    {"qualification": "Общественный деятель (революционер)", "base_rank": 100, "qualification_coefficient": 3.6, "level": "", "is_paid": true},
+    {"qualification": "Интересант", "base_rank": 0, "qualification_coefficient": 0, "level": "L05", "is_paid": false},
+    {"qualification": "Определяющийся", "base_rank": 0, "qualification_coefficient": 0, "level": "L08", "is_paid": false}
+  ]
+} 
